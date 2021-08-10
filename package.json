@@ -1,0 +1,34 @@
+{
+    "name": "reallymello-nightwatchjs-accessibility-example",
+    "version": "1.0.0",
+    "description": "Accessibility testing tutorial example with NightwatchJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "nightwatch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/reallymello/nightwatchTutorials/accessibilityExample"
+    },
+    "keywords": [
+        "nightwatchjs",
+        "accessibility",
+        "tutorial",
+        "youtube"
+    ],
+    "author": "David Mello",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "all": "0.0.0",
+        "axe-core": "^3.4.1",
+        "chromedriver": "^87.0.7",
+        "geckodriver": "^1.19.1",
+        "nightwatch": "^1.6.4",
+        "nightwatch-axe-verbose": "^1.1.1"
+    },
+    "devDependencies": {
+        "fs": "^0.0.1-security",
+        "handlebars": "^4.7.7",
+        "path": "^0.12.7"
+    }
+}
